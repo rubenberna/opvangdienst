@@ -1,11 +1,10 @@
 import PropTypes from "prop-types"
 import React from "react"
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 
-import { LinksContainer, NavLink } from './header.style'
+import { LinksContainer, NavLink, Title } from './header.style'
 
 const linkStyle = {
-  color: `#333`,
   textDecoration: `none`
 }
 
@@ -23,20 +22,24 @@ const Header = ({ siteTitle }) => (
         <NavLink
           style={linkStyle}
           to='/'>
-          {siteTitle}
+          <Title>
+            {siteTitle}
+          </Title>
         </NavLink>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <LinksContainer className="mr-auto">
           {links.map(l =>
-            <Nav.Link key={l.key}>
-              <NavLink
-                style={linkStyle}
-                to={l.path}>
-                {l.title}
-              </NavLink>
-            </Nav.Link>)}
+            <NavLink
+              className='nav-link'
+              key={l.key}
+              style={linkStyle}
+              activeStyle={{ color: '#8bc34a' }}
+              to={l.path}>
+              {l.title}
+            </NavLink>
+          )}
         </LinksContainer>
       </Navbar.Collapse>
     </div>

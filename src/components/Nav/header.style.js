@@ -10,6 +10,10 @@ export const NavLink = styled(Link)`
   color: #333;
   text-decoration: none;
   &:hover {
-    color: red !important;
+    color: #8bc34a !important;
   }
+`
+
+export const Title = styled.h4`
+  /* color: #8bc34a; */
 `
