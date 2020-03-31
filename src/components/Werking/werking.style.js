@@ -4,6 +4,7 @@ import babyPlaying from '../../images/baby_playing.jpg'
 export const Container = styled.div`
   margin: 40px 0;
   display: flex;
+  flex-direction: column;
 `
 
 export const TextContainer = styled.div`
@@ -29,4 +30,8 @@ export const BabyPlaying = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   margin: 20px 0;
+`
+
+export const DownloadBtn = styled.a`
+  width: 250px;
 `

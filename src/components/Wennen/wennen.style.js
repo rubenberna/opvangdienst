@@ -10,3 +10,7 @@ export const Header = styled.h1`
   color: #7cb342;
   margin-bottom: 20px;
 `
+
+export const DownloadBtn = styled.a`
+  width: 250px;
+`

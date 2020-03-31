@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { Container, Header, TextContainer, Text, BabyPlaying } from './werking.style'
+import { Container, Header, TextContainer, Text, BabyPlaying, DownloadBtn } from './werking.style'
+
+import hhrPDF from '../../assets/HHR.pdf'
 
 const Werking = () => {
   return(
@@ -32,6 +34,7 @@ const Werking = () => {
         </Text>
       </TextContainer>
       <br/>
+      <DownloadBtn href={hhrPDF} className='btn btn-info' download>Huishoudelijk Reglement</DownloadBtn>
     </Container>
   )
 }
