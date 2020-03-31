@@ -5,7 +5,7 @@ const Footer = () => {
   return(
     <Wrapper>
       <Container>
-        <Brand>
+        <Brand id='footer-brand'>
         Dienst voor opvanggezinnen – Gezinsbond Gewest Antwerpen
         </Brand>
         <Details>

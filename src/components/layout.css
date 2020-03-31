@@ -17,6 +17,11 @@ main {
   font-size: 30px;
 }
 
+#footer-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 21px;
+}
+
 h3, h4, h5, h6, li {
   font-weight: 200;
 }
