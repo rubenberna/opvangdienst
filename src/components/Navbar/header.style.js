@@ -2,6 +2,13 @@ import styled from 'styled-components'
 import { Link } from "gatsby"
 import { Nav } from 'react-bootstrap'
 
+export const Brand = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 285px;
+`
+
 export const LinksContainer = styled(Nav)`
   width: 100%;
   justify-content: flex-end;
@@ -15,5 +22,6 @@ export const NavLink = styled(Link)`
 `
 
 export const Title = styled.h4`
-  /* color: #8bc34a; */
+  /* color: #8bc34a;
+  font-weight: 600; */
 `

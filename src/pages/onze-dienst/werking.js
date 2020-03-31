@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../../components/layout'
+import WerkingContainer from '../../components/Werking'
 
 const Werking = () => {
   return (
     <Layout>
-      Werking
+      <WerkingContainer />
     </Layout>
   )
 }

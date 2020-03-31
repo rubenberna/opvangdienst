@@ -1,18 +1,20 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from 'gatsby'
 import { Navbar, NavDropdown } from 'react-bootstrap'
 
-import { LinksContainer, NavLink, Title } from './header.style'
+import { LinksContainer, NavLink, Title, Brand } from './header.style'
+import Logo from '../logo'
 
 const onzeDienstLinks = [
-  { key: 0, title: 'Anbood', path: '/onze-dienst/anbood' },
+  { key: 0, title: 'Aanbod', path: '/onze-dienst/aanbod' },
   { key: 1, title: 'Werking', path: '/onze-dienst/werking' },
 ]
 
 const oudersLinks = [
   { key: 0, title: 'Inschrijving', path: '/ouders/inschrijving' },
   { key: 1, title: 'Dossier', path: '/ouders/dossier' },
-  { key: 2, title: 'Warom wennen?', path: '/ouders/warom' },
+  { key: 2, title: 'Wennen', path: '/ouders/warom' },
   { key: 3, title: 'Wat te brengen?', path: '/ouders/wat' },
 ]
 
@@ -24,13 +26,18 @@ const Header = ({ siteTitle }) => (
   <Navbar bg="light" expand="lg" sticky='top'>
     <div className='container'>
       <Navbar.Brand>
-        <NavLink
-          style={linkStyle}
-          to='/'>
-          <Title>
-            {siteTitle}
-          </Title>
-        </NavLink>
+        <Brand>
+          <Link to='/'>
+            <Logo />
+          </Link>
+          <NavLink
+            style={linkStyle}
+            to='/'>
+            <Title id='head-brand'>
+              {siteTitle}
+            </Title>
+          </NavLink>
+        </Brand>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
@@ -38,8 +45,10 @@ const Header = ({ siteTitle }) => (
           <NavDropdown title="Onze Dienst" id="basic-nav-dropdown">
             {onzeDienstLinks.map(l =>
               <NavLink
+                key={l.key}
                 className='dropdown-item'
                 to={l.path}
+                activeStyle={{ color: "#7cb342" }}
               >
                 {l.title}
               </NavLink>)}
@@ -47,8 +56,10 @@ const Header = ({ siteTitle }) => (
           <NavDropdown title="Ouders" id="basic-nav-dropdown">
             {oudersLinks.map(l =>
               <NavLink
+                key={l.key}
                 className='dropdown-item'
                 to={l.path}
+                activeStyle={{ color: "#7cb342" }}
               >
                 {l.title}
               </NavLink>)}
@@ -57,7 +68,7 @@ const Header = ({ siteTitle }) => (
             className='nav-link'
             style={linkStyle}
             to='/onthaalouder'
-            activeStyle={{ color: "red" }}
+            activeStyle={{ color: "#7cb342" }}
           >
             Onthaalouder
           </NavLink>
@@ -65,7 +76,7 @@ const Header = ({ siteTitle }) => (
             className='nav-link'
             style={linkStyle}
             to='/contact'
-            activeStyle={{ color: "red" }}
+            activeStyle={{ color: "#7cb342" }}
           >
             Contact
           </NavLink>
