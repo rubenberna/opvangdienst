@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin: 40px 0;
   position: relative;
-  min-height: 150vh;
 `
 
 export const Header = styled.h1`
@@ -11,7 +10,6 @@ export const Header = styled.h1`
   color: #7cb342;
   margin-bottom: 20px;
 `
-
 export const TextBlock = styled.div`
 
 `
@@ -21,4 +19,8 @@ export const ImageFrame = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+`
+
+export const List = styled.ul`
+  /* list-style-type: none; */
 `

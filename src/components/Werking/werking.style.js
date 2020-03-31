@@ -22,7 +22,7 @@ export const Text = styled.h5`
 
 export const BabyPlaying = styled.div`
   background-image: url(${babyPlaying});
-  height 400px;
+  height: 400px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
