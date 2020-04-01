@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin: 40px 0;
-  position: relative;
+  min-height: 60vh;
 `
 
 export const Header = styled.h1`
