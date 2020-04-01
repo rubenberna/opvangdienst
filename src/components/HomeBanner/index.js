@@ -6,7 +6,7 @@ const HomeBanner = () => {
   return (
     <Container>
       <ImgContainer>
-        <img src={children} alt='children-playing' style={{width: '80%'}}/>
+        <img src={children} alt='children-playing' style={{width: '72%'}}/>
       </ImgContainer>
       <Header>
         Dienst opvanggezinnen - Gezinsbond Antwerpen
