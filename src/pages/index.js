@@ -6,8 +6,8 @@ import { Container } from '../styles/home'
 import CoronaBanner from '../components/CoronaBanner'
 import HomeBanner from '../components/HomeBanner'
 
-const IndexPage = (props) => {
-  console.log(props);
+const IndexPage = () => {  
+
   
   return (
   <Layout>

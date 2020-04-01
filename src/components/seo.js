@@ -10,23 +10,35 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, keywords }) {
-  const { site } = useStaticQuery(
+function SEO({ description, lang, meta, title }) {
+  
+  const { site, placeholderImage} = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
             description
-            author,
+            author
             keywords
+            siteUrl
           }
         }
+        placeholderImage: file(relativePath: { eq: "logo.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 800) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const image = placeholderImage.childImageSharp && placeholderImage.childImageSharp.fluid ? `${site.siteMetadata.siteUrl}${placeholderImage.childImageSharp.fluid.src}`: null
+  // console.log(image);
+  
 
   return (
     <Helmet
@@ -39,6 +51,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: "keywords",
+          content: site.siteMetadata.keywords.join(","),
         },
         {
           property: `og:title`,
@@ -68,13 +84,41 @@ function SEO({ description, lang, meta, title, keywords }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ]
+      .concat(
+        placeholderImage
+          ? [
+            {
+              property: "og:image",
+              content: image,
+            },
+            {
+              property: "og:image:width",
+              content: 500,
+            },
+            {
+              property: "og:image:height",
+              content: 500,
+            },
+            {
+              name: "twitter:card",
+              content: "summary_large_image",
+            },
+          ]
+          : [
+            {
+              name: "twitter:card",
+              content: "summary",
+            },
+          ]
+      )
+      .concat(meta)}
     />
   )
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `nl`,
   meta: [],
   description: ``,
 }
@@ -84,6 +128,11 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  })
 }
 
 export default SEO
