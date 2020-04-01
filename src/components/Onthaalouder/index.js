@@ -11,14 +11,14 @@ const OnthaalouderContainer = () => {
       </Header>
       <TextBlock>
         <p>
-          De onthaalouder doet opvang in haar eigen woning, er zijn twee groepsopvang initiatieven bij de dienst voor onthaalouders – Gezinsbond Gewest Antwerpen. De onthaalouders hebben een hart voor kinderen met een respect voor ieders eigenheid.
+          De onthaalouder doet doorgaans opvang in haar eigen woning. Ook zijn er drie groepsopvang initiatieven bij de dienst voor onthaalouders – Gezinsbond Gewest Antwerpen. Al onze onthaalouders hebben een hart voor kinderen en een groot respect voor ieders eigenheid.
         </p>
       </TextBlock>
       <ImageFrame>
         <img alt='onthaalouderImg' src={onthaalouderImg} style={{ objectFit: 'contain', width: '50%', filter: 'opacity(0.8)', borderRadius: '5px' }} />
         <TextBlock style={{ width: '48%' }}>
           <p>
-            De onthaalouders worden opgevolgd door de verantwoordelijke die op regelmatige tijdstippen onverwachts op huisbezoek komt.
+            De onthaalouders worden opgevolgd door de verantwoordelijke die op regelmatige tijdstippen onverwachts op huisbezoek komt. Ook kan elke locatie zorginspectie van Kind en Gezin over de vloer krijgen. Elk opvanginitiatief werd vergund door Kind en Gezin en volgt de regelgeving.
         </p>
           <p>
             De onthaalouder wordt aangenomen na een objectieve selectieprocedure en kan pas van start gaan na het volgen van de cursus ‘kennismaking met de gezinsopvang’ en ‘werken in de gezinsopvang’. Verder zijn de onthaalouders bereid tot het volgen van vormingen die aangeboden worden door de dienst voor onthaalouders – Gezinsbond Gewest Antwerpen.
@@ -42,7 +42,7 @@ const OnthaalouderContainer = () => {
           Als onthaalouder werkt men in een <a href='https://www.vivosocialprofit.org/-helpdesk-onthaalouders' rel="noopener noreferrer" target='_blank' > sociaal statuut</a>.
         </p>
         <p>
-          U kan ook gaan kijken naar volgende website voor meer informatie: <a href='http://www.ikwordonthaalouder.be/ ' target='_blank' rel="noopener noreferrer" >http://www.ikwordonthaalouder.be/</a>
+          U kan ook gaan kijken naar volgende website voor meer informatie: <a href='http://www.ikwordonthaalouder.be/ ' target='_blank' rel="noopener noreferrer" >http://www.ikwordonthaalouder.be/</a> of op <a href='https://www.kindengezin.be/kinderopvang/starter/' target='_blank' rel="noopener noreferrer">https://www.kindengezin.be/kinderopvang/starter/</a>
         </p>
       </TextBlock>
       <OOImage/>
