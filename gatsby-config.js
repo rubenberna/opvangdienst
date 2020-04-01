@@ -33,6 +33,14 @@ module.exports = {
         icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
       },
     },
+     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://dog-gezinsbondantwerpen.be',
+        sitemap: 'https://dog-gezinsbondantwerpen.be/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
