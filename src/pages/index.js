@@ -6,7 +6,10 @@ import { Container } from '../styles/home'
 import CoronaBanner from '../components/CoronaBanner'
 import HomeBanner from '../components/HomeBanner'
 
-const IndexPage = () => (
+const IndexPage = (props) => {
+  console.log(props);
+  
+  return (
   <Layout>
     <SEO title="Home" />
     <Container>
@@ -15,5 +18,6 @@ const IndexPage = () => (
     </Container>
   </Layout>
 )
+}
 
 export default IndexPage

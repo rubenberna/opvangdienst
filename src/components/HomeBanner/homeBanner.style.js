@@ -23,7 +23,6 @@ export const Header = styled.h2`
 `
 
 export const TextContainer = styled.div`
-
 `
 
 export const Text = styled.h5`

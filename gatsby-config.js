@@ -3,6 +3,7 @@ module.exports = {
     title: `D.O.G. Antwerpen`,
     description: `Bij de dienst onthaalouders Gezinsbond Antwerpen kunt u terecht als u opvang zoekt voor uw kind in een opvanggezin of als u onthaalouder wilt worden.`,
     author: `rubenberna`,
+    keywords: `[onthaalouders, antwerpen, gezinsbond, dienst opvanggezinnen]`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

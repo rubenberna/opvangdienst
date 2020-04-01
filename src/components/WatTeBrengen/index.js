@@ -6,7 +6,7 @@ const WatTeBrengenContainer = () => {
   return (
     <Container>
       <Header>
-        Wat te brengen?
+        Wat mee te brengen?
       </Header> 
       <ImageFrame>
         <TextBlock>

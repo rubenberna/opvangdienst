@@ -15,7 +15,7 @@ const oudersLinks = [
   { key: 0, title: 'Inschrijving', path: '/ouders/inschrijving' },
   { key: 1, title: 'Dossier', path: '/ouders/dossier' },
   { key: 2, title: 'Wennen', path: '/ouders/warom' },
-  { key: 3, title: 'Wat te brengen?', path: '/ouders/wat' },
+  { key: 3, title: 'Wat mee te brengen?', path: '/ouders/wat' },
 ]
 
 const linkStyle = {

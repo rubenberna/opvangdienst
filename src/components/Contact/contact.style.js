@@ -25,8 +25,6 @@ export const ContactsList = styled.div`
   padding: 20px;
   width: 35%;
   height: 360px;
-  border-radius:
-}
 `
 
 export const ListTitle = styled.p`
