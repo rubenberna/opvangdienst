@@ -30,3 +30,7 @@ export const ContactsList = styled.div`
 export const ListTitle = styled.p`
   font-weight: 600;
 `
+
+export const List = styled.ul`
+  list-style-type: none;
+`

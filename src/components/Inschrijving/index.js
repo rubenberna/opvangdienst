@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, TextBlock } from './inschrijving.style'
+import { Container, Header, TextBlock, ItalicText } from './inschrijving.style'
 
 const InschrijvingContainer = () => {
   return (
@@ -17,9 +17,9 @@ const InschrijvingContainer = () => {
         <p>
           Klik in de rechter bovenhoek op aanmelden en maak je A-profiel aan. Met je A-profiel kan je via de KOZA een aanvraag indienen voor het opvanginitiatief van jouw keuze. Je kan ook meerdere aanvragen indienen.
         </p>
-        <p style={{ fontStyle: 'italic', fontWeight: 600}}>
+        <ItalicText>
           Beschik je niet over een e-ID kaartlezer, of heb je hulp nodig bij je zoektocht?
-        </p>
+        </ItalicText>
         <p>
           Je kan steeds langskomen op ons kantoor tijdens onze permanentie uren op maandag van 12.00u tot 15.00u of op donderdag van 13.00u tot 15.00u.
         </p>

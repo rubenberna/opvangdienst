@@ -12,7 +12,7 @@ export const Header = styled.h1`
 `
 
 export const TextBlock = styled.div`
-
+  margin-top: ${({ marginTop }) => marginTop};
 `
 
 export const List = styled.ul`

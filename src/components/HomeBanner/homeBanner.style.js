@@ -15,7 +15,7 @@ export const ImgContainer = styled.div`
   justify-content: center;
 `
 
-export const Header = styled.h2`
+export const Header = styled.h1`
   text-align: center;
   font-weight: 700;
   color: #7cb342;

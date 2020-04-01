@@ -14,3 +14,8 @@ export const Header = styled.h1`
 export const TextBlock = styled.div`
 
 `
+
+export const ItalicText = styled.p`
+  font-style: italic;
+  font-weight: 600;
+`

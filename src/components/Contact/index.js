@@ -5,7 +5,9 @@ import {
   Box,
   ImgContainer,
   ContactsList,
-  ListTitle } from './contact.style'
+  ListTitle,
+  List
+ } from './contact.style'
 import Logo from './logoBig'
 
 const Contact = () => {
@@ -18,12 +20,12 @@ const Contact = () => {
           <ListTitle>
             Dienst voor opvanggezinnen – Gezinsbond Gewest Antwerpen
           </ListTitle>
-          <ul style={{ listStyleType: 'none'}}>
+          <List>
             <li>Schermersstraat 32</li>
             <li>2000 Antwerpen</li>
             <li>03 226 87 91</li>
             <li><a href='mailto:info@dog-gezinsbond.be'>info@dog-gezinsbond.be</a></li>
-          </ul>
+          </List>
           <hr/>
           <ListTitle>
             Permanentie op:

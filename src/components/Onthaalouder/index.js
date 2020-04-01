@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, TextBlock, ImageFrame } from './onthaalouder.style'
+import { Container, Header, TextBlock, ImageFrame, StyledImage } from './onthaalouder.style'
 import onthaalouderImg from '../../images/onthaalouder.jpg'
 import OOImage from './ooImage'
 
@@ -15,8 +15,8 @@ const OnthaalouderContainer = () => {
         </p>
       </TextBlock>
       <ImageFrame>
-        <img alt='onthaalouderImg' src={onthaalouderImg} style={{ objectFit: 'contain', width: '50%', filter: 'opacity(0.8)', borderRadius: '5px' }} />
-        <TextBlock style={{ width: '48%' }}>
+        <StyledImage alt='onthaalouderImg' src={onthaalouderImg} />
+        <TextBlock width='48%'>
           <p>
             De onthaalouders worden opgevolgd door de verantwoordelijke die op regelmatige tijdstippen onverwachts op huisbezoek komt. Ook kan elke locatie zorginspectie van Kind en Gezin over de vloer krijgen. Elk opvanginitiatief werd vergund door Kind en Gezin en volgt de regelgeving.
         </p>

@@ -21,7 +21,7 @@ const DossierContainer = () => {
         </List>
       </TextBlock>
       <HandsImage/>
-      <TextBlock style={{marginTop: '20px'}}>
+      <TextBlock marginTop={'20px'}>
         <p>
           De ouders worden geïnformeerd over de werking van de dienst en de verantwoordelijken trachten het opvangaanbod af te stemmen op hun verwachtingen. Zij worden ook op de hoogte gebracht van alle wijzigingen in de werking van de dienst.
         </p>

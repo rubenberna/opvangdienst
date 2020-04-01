@@ -2,11 +2,15 @@ import React from 'react';
 import { Container, ImgContainer, Header, TextContainer, Text } from './homeBanner.style'
 import children from '../../images/playschool-151938.svg'
 
+const imgStyle = {
+  width: '72%'
+}
+
 const HomeBanner = () => {
   return (
     <Container>
       <ImgContainer>
-        <img src={children} alt='children-playing' style={{width: '72%'}}/>
+        <img src={children} alt='children-playing' style={imgStyle}/>
       </ImgContainer>
       <Header>
         Dienst opvanggezinnen - Gezinsbond Antwerpen
