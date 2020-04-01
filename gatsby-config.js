@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `D.O.G. Antwerpen`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Bij de dienst onthaalouders Gezinsbond Antwerpen kunt u terecht als u opvang zoekt voor uw kind in een opvanggezin of als u onthaalouder wilt worden.`,
+    author: `rubenberna`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
