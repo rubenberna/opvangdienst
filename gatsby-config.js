@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `D.O.G. Antwerpen`,
+    title: `Gezinsbond Antwerpen`,
     description: `Bij de dienst onthaalouders Gezinsbond Antwerpen kunt u terecht als u opvang zoekt voor uw kind in een opvanggezin of als u onthaalouder wilt worden.`,
     author: `rubenberna`,
     siteUrl: `https://dog-gezinsbondantwerpen.be/`,
