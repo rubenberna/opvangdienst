@@ -34,10 +34,10 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
+  console.log(placeholderImage);
 
   const metaDescription = description || site.siteMetadata.description
   const image = placeholderImage.childImageSharp && placeholderImage.childImageSharp.fluid ? `${site.siteMetadata.siteUrl}${placeholderImage.childImageSharp.fluid.src}`: null
-  // console.log(image);
   
 
   return (
@@ -94,11 +94,11 @@ function SEO({ description, lang, meta, title }) {
             },
             {
               property: "og:image:width",
-              content: 500,
+              content: '1492px',
             },
             {
               property: "og:image:height",
-              content: 500,
+              content: '1039px',
             },
             {
               name: "twitter:card",
