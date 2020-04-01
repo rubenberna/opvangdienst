@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Wrapper = styled.div`
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;

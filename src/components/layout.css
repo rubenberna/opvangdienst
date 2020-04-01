@@ -4,11 +4,6 @@
 body {
   color: #333;
   font-family: 'Nunito', sans-serif;
-  position: relative;
-}
-
-main {
-  min-height: 120vh;
 }
 
 #head-brand {
