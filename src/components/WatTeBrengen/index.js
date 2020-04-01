@@ -21,7 +21,7 @@ const WatTeBrengenContainer = () => {
             <li>Zalf voor luieruitslag</li>
           </List>
         </TextBlock>
-        <SleepingImg/>
+        <SleepingImg alt='sleeping image'/>
       </ImageFrame>
     </Container>
   )

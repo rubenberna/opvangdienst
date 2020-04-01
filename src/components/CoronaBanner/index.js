@@ -18,7 +18,7 @@ const CoronaBanner = () => {
       </Header>
       <Banner>
         <ImgContainer>
-          <VirusImg />
+          <VirusImg alt='virus'/>
         </ImgContainer>
         <TextContainer>
           Omwille van de corona crisis zijn onze kantoren gesloten en kunnen er tot nader orde geen permanenties of afspraken doorgaan.

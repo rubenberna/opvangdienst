@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
       <Navbar.Brand>
         <Brand>
           <Link to='/'>
-            <Logo />
+            <Logo alt='logo'/>
           </Link>
           <NavLink
             style={linkStyle}

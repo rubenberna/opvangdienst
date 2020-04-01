@@ -45,7 +45,7 @@ const OnthaalouderContainer = () => {
           U kan ook gaan kijken naar volgende website voor meer informatie: <a href='http://www.ikwordonthaalouder.be/ ' target='_blank' rel="noopener noreferrer" >http://www.ikwordonthaalouder.be/</a> of op <a href='https://www.kindengezin.be/kinderopvang/starter/' target='_blank' rel="noopener noreferrer">https://www.kindengezin.be/kinderopvang/starter/</a>
         </p>
       </TextBlock>
-      <OOImage/>
+      <OOImage alt='oo Image'/>
     </Container>
   )
 }

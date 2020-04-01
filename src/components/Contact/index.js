@@ -37,7 +37,7 @@ const Contact = () => {
           </ul>
         </ContactsList>
         <ImgContainer>
-          <Logo />
+          <Logo alt='logo'/>
         </ImgContainer>
       </Box>
     </Container>

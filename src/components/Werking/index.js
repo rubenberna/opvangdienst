@@ -25,7 +25,7 @@ const Werking = () => {
         <Text>
           De onthaalouder heeft ook oog voor verzorging, gezondheid, voeding, slaap- en rustmomenten.
         </Text>
-        <BabyPlaying/>
+        <BabyPlaying alt='baby playing'/>
         <Text>
           De kinderbegeleiders krijgen vanuit de dienst huisbezoeken op regelmatige tijdstippen. Deze huisbezoeken zijn onaangekondigd. Er wordt gezorgd voor een uitgebreid vormingsaanbod en de kinderbegeleiders krijgen verder administratieve en pedagogische ondersteuning.
         </Text>
