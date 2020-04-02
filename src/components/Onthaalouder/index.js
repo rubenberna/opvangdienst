@@ -42,7 +42,7 @@ const OnthaalouderContainer = () => {
           Als onthaalouder werkt men in een <a href='https://www.vivosocialprofit.org/-helpdesk-onthaalouders' rel="noopener noreferrer" target='_blank' > sociaal statuut</a>.
         </p>
         <p>
-          U kan ook gaan kijken naar volgende website voor meer informatie: <a href='http://www.ikwordonthaalouder.be/ ' target='_blank' rel="noopener noreferrer" >http://www.ikwordonthaalouder.be/</a> of op <a href='https://www.kindengezin.be/kinderopvang/starter/' target='_blank' rel="noopener noreferrer">https://www.kindengezin.be/kinderopvang/starter/</a>
+          U kan ook gaan kijken naar volgende websites voor meer informatie: <a href='http://www.ikwordonthaalouder.be/ ' target='_blank' rel="noopener noreferrer" >http://www.ikwordonthaalouder.be/</a> of op <a href='https://www.kindengezin.be/kinderopvang/starter/' target='_blank' rel="noopener noreferrer">https://www.kindengezin.be/kinderopvang/starter/</a>
         </p>
       </TextBlock>
       <OOImage alt='oo Image'/>
