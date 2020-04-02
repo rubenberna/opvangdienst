@@ -7,6 +7,9 @@ export const Brand = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 336px;
+  @media (max-width : 992px) {
+    width: 235px;
+  }
 `
 
 export const LinksContainer = styled(Nav)`
