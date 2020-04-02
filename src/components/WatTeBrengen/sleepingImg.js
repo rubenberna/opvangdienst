@@ -1,6 +1,17 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
 import Img from "gatsby-image"
+
+const StyledImg = styled(Img)`
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  @media (max-width : 992px) {
+    width: 170px;
+    height: 170px;
+  }
+`
 
 const CoronaImg = () => {
   const data = useStaticQuery(graphql`
@@ -15,7 +26,7 @@ const CoronaImg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{width: '300px', height: '300px', borderRadius: '50%'}}/>
+  return <StyledImg fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default CoronaImg

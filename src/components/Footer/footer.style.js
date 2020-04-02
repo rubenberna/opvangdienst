@@ -8,11 +8,16 @@ export const Wrapper = styled.div`
   width: 100%;
   background-color: #F8F9FA;
   height: 165px;
+  @media (max-width : 992px) {
+    height: 149px;
+  }
 `
 export const Container = styled.div`
   margin: 0 120px;
   padding-top: 15px;
-
+  @media (max-width : 992px) {
+    margin: 0 20px;
+  }
 `
 
 export const Brand = styled.p`

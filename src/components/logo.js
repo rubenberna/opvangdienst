@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
 import Img from "gatsby-image"
 
 /*
@@ -12,6 +13,18 @@ import Img from "gatsby-image"
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
+
+const StyledImg = styled(Img)`
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+  border-radius: 100%;
+  @media (max-width : 992px) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%
+  }
+`
 
 const Logo = () => {
   const data = useStaticQuery(graphql`
@@ -26,7 +39,7 @@ const Logo = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{ width: '82px', height: '82px', objectFit: 'contain', borderRadius: '100%' }} />
+  return <StyledImg fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Logo

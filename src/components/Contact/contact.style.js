@@ -14,6 +14,9 @@ export const Header = styled.h1`
 export const Box = styled.div`
   display: flex;
   justify-content: space-between;
+   @media (max-width : 992px) {
+    flex-direction: column;
+  }
 `
 
 export const ImgContainer = styled.div`
@@ -25,6 +28,11 @@ export const ContactsList = styled.div`
   padding: 20px;
   width: 35%;
   height: 360px;
+  @media (max-width : 992px) {
+    width: 85%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
 `
 
 export const ListTitle = styled.p`

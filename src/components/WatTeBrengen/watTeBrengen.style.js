@@ -19,6 +19,9 @@ export const ImageFrame = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  @media (max-width : 992px) {
+    flex-direction: column;
+  }
 `
 
 export const List = styled.ul`

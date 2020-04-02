@@ -8,11 +8,17 @@ export const Container = styled.div`
 `
 
 export const ImgContainer = styled.div`
-  height: 283px;
   width: 100%;
   filter: opacity(0.75);
   display: flex;
   justify-content: center;
+`
+
+export const ChildrenImage = styled.img`
+  width: 72%;
+  @media (max-width : 992px) {
+    height:28%;
+  }
 `
 
 export const Header = styled.h1`

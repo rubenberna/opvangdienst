@@ -30,6 +30,9 @@ export const BabyPlaying = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   margin: 20px 0;
+  @media (max-width : 992px) {
+    height: 245px;
+  }
 `
 
 export const DownloadBtn = styled.a`

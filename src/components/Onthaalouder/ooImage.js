@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const CoronaImg = () => {
+const OOImg = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "OO_kunst-min.jpg" }) {
@@ -18,4 +18,4 @@ const CoronaImg = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default CoronaImg
+export default OOImg
