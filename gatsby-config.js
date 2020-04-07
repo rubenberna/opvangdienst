@@ -4,7 +4,7 @@ module.exports = {
     description: `Bij de dienst onthaalouders Gezinsbond Antwerpen kunt u terecht als u opvang zoekt voor uw kind in een opvanggezin of als u onthaalouder wilt worden.`,
     author: `rubenberna`,
     siteUrl: `https://dog-gezinsbondantwerpen.be/`,
-    keywords: ['gezinsbond', 'onthaalouders', 'antwerpen', 'dienst opvanggezinnen']
+    keywords: ['gezinsbond', 'onthaalouders', 'antwerpen', 'dienst opvanggezinnen'],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
