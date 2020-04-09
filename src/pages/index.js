@@ -8,7 +8,7 @@ import HomeBanner from '../components/HomeBanner'
 
 const IndexPage = () => (
   <Layout>
-    <SEO/>
+    <SEO title="Home" />
     <Container>
       <CoronaBanner />
       <HomeBanner />
