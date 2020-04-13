@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, ImgContainer, Header, TextContainer, Text, ChildrenImage } from './homeBanner.style'
-import children from '../../images/playschool-151938.svg'
+import children from '../../images/playschool.svg'
 
 const HomeBanner = () => {
   return (
