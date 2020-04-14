@@ -1,10 +1,10 @@
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 `
 
 export const ImgContainer = styled.div`
@@ -29,8 +29,29 @@ export const Header = styled.h1`
 `
 
 export const TextContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  @media (max-width : 992px) {
+    flex-direction: column;
+  }
 `
 
-export const Text = styled.h5`
+export const Text = styled.p`
+  width: 70%;
+`
 
+export const StyledLink = styled(Link)`
+  text-decoration: none !important;
+`
+
+export const Frame = styled.div`
+  display: flex;
+  align-items: center;
+  width: 80%;
+`
+
+export const FrameImage = styled.img`
+  width: 100px;
+  height: 100px;
 `

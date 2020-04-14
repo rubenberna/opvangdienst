@@ -38,3 +38,7 @@ export const BabyPlaying = styled.div`
 export const DownloadBtn = styled.a`
   width: 250px;
 `
+
+export const List = styled.ul`
+  margin-top: 10px;
+`
