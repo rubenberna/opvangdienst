@@ -17,8 +17,10 @@ export const Header = styled.h1`
 
 `
 
-export const Text = styled.h5`
+export const Text = styled.p`
   margin: 13px 0;
+  font-weight: ${({weight}) => weight};
+  margin: ${({margin}) => margin};
 `
 
 export const BabyPlaying = styled.div`
