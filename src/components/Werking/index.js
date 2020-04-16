@@ -15,7 +15,7 @@ const Werking = () => {
           De Dienst voor Opvanggezinnen Gezinsbond Gewest Antwerpen heeft aangesloten kinderbegeleiders in de districten Antwerpen, Berchem, Borgerhout, Deurne, Hoboken en Merksem die kleinschalige opvang (max. 8 kindjes) organiseren in hun eigen woning.
         </Text>
         <Text>
-          Als uw kindje wordt opgevangen door een kinderbegeleider die aangesloten is bij de dienst, dan betaalt u volgens uw inkomen. Op de website van Kind en Gezin vindt u meer informatie, kan u de dagprijs volgens inkomen berekenen en het attest inkomenstarief aanvragen.
+          Als uw kindje wordt opgevangen door een kinderbegeleider die aangesloten is bij de dienst, dan betaalt u volgens uw inkomen. Op de website van <a href='https://www.kindengezin.be/kinderopvang/ouder/prijs/inkomenstarief/' target='_blank' rel='noopener noreferrer'>Kind en Gezin</a> vindt u meer informatie, kan u de dagprijs volgens inkomen berekenen en het attest inkomenstarief aanvragen.
         </Text>
         <Text>
           De kinderbegeleiders vangen kinderen op van 0 tot 3 jaar en dit op weekdagen van 7.30 tot 17.30 uur. Flexibele opvanguren zijn steeds bespreekbaar met de kinderbegeleider. 
