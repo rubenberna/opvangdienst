@@ -27,7 +27,7 @@ export const ContactsList = styled.div`
   border: 1px solid #e0e0e0;
   padding: 20px;
   width: 35%;
-  height: 360px;
+  min-height: 360px;
   @media (max-width : 992px) {
     width: 85%;
     height: 100%;
