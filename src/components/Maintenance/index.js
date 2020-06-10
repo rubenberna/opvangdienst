@@ -12,7 +12,7 @@ export default function Component() {
         <p>
           <a href="https://www.facebook.com/Dienst-Opvanggezinnen-Gezinsbond-Gewest-Antwerpen-108867864144180"
             style={{ textDecoration: 'none'}}>
-            Visit our Facebook page
+            Or visit our Facebook page
           </a>
         </p>
       </Jumbotron>
