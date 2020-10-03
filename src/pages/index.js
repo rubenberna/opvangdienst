@@ -6,7 +6,7 @@ import CoronaBanner from '../components/CoronaBanner'
 import HomeBanner from '../components/HomeBanner'
 import Maintenance from '../components/Maintenance'
 
-let maintenance = true
+let maintenance = false
 const IndexPage = () => {
 
   function render() {
