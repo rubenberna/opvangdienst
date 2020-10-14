@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin: 40px 0;
+  min-height: 65vh;
   position: relative;
 `
 
@@ -15,7 +16,8 @@ export const TextBlock = styled.div`
 
 `
 
-export const ItalicText = styled.p`
+export const ItalicBoldText = styled.p`
+  font-family: sans-serif;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
 `

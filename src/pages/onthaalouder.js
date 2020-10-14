@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Layout from '../components/layout'
 import OnthaalouderContainer from '../components/Onthaalouder'
 import SEO from "../components/seo"

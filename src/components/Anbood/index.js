@@ -11,7 +11,7 @@ const Anbood = () => {
       <p>
         De dienst voor onthaalouders heeft verschillende onthaalouders en samenwerkingsverbanden verspreid over Groot Antwerpen. Zie hieronder de map voor de verschillende locaties
       </p>
-      <Map title="map" src="https://www.google.com/maps/d/embed?mid=1r7wK__VUjEuEc27r7bq5wTKEMx8"></Map>
+      <Map title="map" src="https://www.google.com/maps/d/embed?mid=1NyD7LVH4xXxAV2cQt07t-v7lreyjp-L7"></Map>
     </Container>
   )
 }
