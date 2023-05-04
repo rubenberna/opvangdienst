@@ -12,6 +12,7 @@ export const ImgContainer = styled.div`
   filter: opacity(0.75);
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 `
 
 export const ChildrenImage = styled.img`
@@ -31,7 +32,7 @@ export const Header = styled.h1`
 export const TextContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 20px 0;
   @media (max-width : 992px) {
     flex-direction: column;
   }
